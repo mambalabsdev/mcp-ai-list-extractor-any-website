@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-ai-list-extractor-any-website",
+  "version": "1.0.0",
+  "description": "MCP server for AI List Extractor for Any Website. Extract item lists from public web pages on your own LLM key. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-ai-list-extractor-any-website": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai scraper",
+    "list extraction",
+    "llm",
+    "structured data",
+    "byok",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/ai-list-extractor-any-website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-ai-list-extractor-any-website"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-ai-list-extractor-any-website"
+}

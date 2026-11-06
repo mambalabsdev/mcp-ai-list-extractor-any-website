@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-ai-list-extractor-any-website": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-ai-list-extractor-any-website"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
