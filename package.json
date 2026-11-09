@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-ai-list-extractor-any-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for AI List Extractor for Any Website. Extract item lists from public web pages on your own LLM key. Runs on Apify. Clay-ready output.",
   "type": "module",
   "bin": {
