@@ -98,7 +98,7 @@ Pay per event on Apify, billed to your Apify account. Prices in USD.
 | Event | Free plan | Bronze | Silver | Gold |
 |---|---|---|---|---|
 | `page-extracted`, one page your model answered, whatever the number of items on it | $0.01 | $0.0095 | $0.009 | $0.0085 |
-| `apify-actor-start`, per run start | $0.0095 | $0.0095 | $0.0095 | $0.0095 |
+| `apify-actor-start`, per run start | $0.012 | $0.012 | $0.012 | $0.012 |
 
 Items behind a charged page, refused pages, failed provider calls, runs with no key, and refused input are free. Mamba Labs pays the platform costs of the run. Mamba Labs pays the platform costs of the run, Apify proxy traffic included.
 
