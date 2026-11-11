@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-ai-list-extractor-any-website",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for AI List Extractor for Any Website. Extract item lists from public web pages on your own LLM key. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
